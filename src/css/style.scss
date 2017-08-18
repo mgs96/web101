@@ -2,8 +2,9 @@
 @import 'Components/header';
 @import 'Components/footer';
 @import 'Components/main';
-$color:#555;
+@import 'Components/section1';
 body{
-    color:$color;
-	font-family:"Arial";
+    margin: 0px;
+    padding: 25px 0px 0px 0px;
+    
 }
