@@ -5141,23 +5141,27 @@
 			value: function render() {
 				return React.createElement(
 					"section",
-					null,
+					{ className: "section4" },
 					React.createElement(
-						"h2",
-						null,
-						"My Work"
-					),
-					React.createElement(
-						"p",
-						null,
-						"Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum. Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae."
+						"div",
+						{ className: "whitebox" },
+						React.createElement(
+							"h2",
+							null,
+							"My Work"
+						),
+						React.createElement(
+							"p",
+							null,
+							"Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum. Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae."
+						)
 					),
 					React.createElement(
 						"div",
-						null,
+						{ className: "flex-container" },
 						React.createElement(
 							"div",
-							null,
+							{ className: "flex-item" },
 							React.createElement(
 								"a",
 								{ href: "/fulls/01.jpg" },
@@ -5166,7 +5170,7 @@
 						),
 						React.createElement(
 							"div",
-							null,
+							{ className: "flex-item" },
 							React.createElement(
 								"a",
 								{ href: "/fulls/02.jpg" },
@@ -5175,7 +5179,7 @@
 						),
 						React.createElement(
 							"div",
-							null,
+							{ className: "flex-item" },
 							React.createElement(
 								"a",
 								{ href: "/fulls/03.jpg" },
@@ -5184,7 +5188,7 @@
 						),
 						React.createElement(
 							"div",
-							null,
+							{ className: "flex-item" },
 							React.createElement(
 								"a",
 								{ href: "/fulls/04.jpg" },
@@ -5193,16 +5197,16 @@
 						),
 						React.createElement(
 							"div",
-							null,
+							{ className: "flex-item" },
 							React.createElement(
 								"a",
 								{ href: "/fulls/05.jpg" },
-								React.createElement("img", { src: "images/thumbs/05.jpg", title: "The sparkling shell", alt: "" })
+								React.createElement("img", { src: "/thumbs/05.jpg", title: "The sparkling shell", alt: "" })
 							)
 						),
 						React.createElement(
 							"div",
-							null,
+							{ className: "flex-item" },
 							React.createElement(
 								"a",
 								{ href: "/fulls/06.jpg" },

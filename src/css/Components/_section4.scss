@@ -1,0 +1,39 @@
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    align-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 800px;
+    margin-top: 60px;
+    margin-left: 5%;
+}
+.flex-item {
+    width: 450px;
+    height: 282px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.section4{
+  .whitebox {
+    color: black;
+    background-color: white;
+    position: relative;
+    top: 25%;
+  }
+  
+  h2 {
+    padding-left: 19px;
+    font-size: 2.25em;
+    text-align: center;
+  }
+  
+  p {
+    padding-left: 19px;
+    text-align: center;
+  }
+}
