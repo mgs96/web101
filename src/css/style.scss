@@ -3,8 +3,12 @@
 @import 'Components/footer';
 @import 'Components/main';
 @import 'Components/section1';
+@import 'Components/section2';
+@import 'Components/section3';
+@import 'icons';
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 body{
     margin: 0px;
     padding: 25px 0px 0px 0px;
-    
+    font-family: 'Source Sans Pro', sans-serif;
 }
